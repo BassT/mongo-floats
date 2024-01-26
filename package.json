@@ -1,0 +1,32 @@
+{
+  "name": "mongo-floats",
+  "version": "1.0.0",
+  "description": "Small helper functions to store float32 data in MongoDB.",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test"
+  },
+  "keywords": [
+    "mongodb",
+    "node",
+    "float",
+    "binary",
+    "number"
+  ],
+  "author": "Sebastian Richter",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.18.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "bson": "^6.0.0"
+  },
+  "peerDependencies": {
+    "mongodb": "^6.0.0"
+  },
+  "engines": {
+    "node": "^18.18.2"
+  }
+}
