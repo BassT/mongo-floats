@@ -2,6 +2,7 @@
   "name": "mongo-floats",
   "version": "1.0.0",
   "description": "Small helper functions to store float32 data in MongoDB.",
+  "homepage": "https://github.com/BassT/mongo-floats",
   "main": "build/index.js",
   "scripts": {
     "build": "tsc",
@@ -16,6 +17,10 @@
   ],
   "author": "Sebastian Richter",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BassT/mongo-floats.git"
+  },
   "devDependencies": {
     "@types/node": "^18.18.2",
     "typescript": "^5.2.2"
